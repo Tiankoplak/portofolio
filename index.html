@@ -1,0 +1,4129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Muhammad Fauzy Agustian | IT Support &amp; Aspiring Fullstack Developer</title>
+
+    <meta name="description"
+        content="Portfolio Muhammad Fauzy Agustian, IT Support dan aspiring Fullstack Developer yang berfokus pada Go, Flutter, PostgreSQL, Docker, dan pengembangan aplikasi modern.">
+
+    <meta name="author" content="Muhammad Fauzy Agustian">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f8f7ff">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Muhammad Fauzy Agustian | Portfolio">
+    <meta property="og:description"
+        content="Personal portfolio Muhammad Fauzy Agustian, IT Support dan aspiring Fullstack Developer.">
+    <meta property="og:locale" content="id_ID">
+
+    <!-- Social Preview -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Muhammad Fauzy Agustian | Portfolio">
+    <meta name="twitter:description"
+        content="IT Support dan aspiring Fullstack Developer yang berfokus pada software development.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/output.css">
+
+    <!-- JavaScript -->
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Skip Navigation: tampil saat pengguna menekan Tab -->
+    <a href="#main-content" class="
+            fixed
+            left-4
+            top-4
+            z-100
+            -translate-y-24
+            rounded-xl
+            bg-violet-600
+            px-4
+            py-3
+            text-sm
+            font-semibold
+            text-white
+            shadow-lg
+            transition
+            focus:translate-y-0
+        ">
+        Skip to content
+    </a>
+
+    <!-- Background Decoration -->
+    <div class="
+            pointer-events-none
+            fixed
+            inset-0
+            -z-20
+            overflow-hidden
+        " aria-hidden="true">
+        <div class="
+                absolute
+                -left-40
+                -top-40
+                h-136
+                w-136
+                rounded-full
+                bg-violet-300/20
+                blur-3xl
+            "></div>
+
+        <div class="
+                absolute
+                -right-40
+                top-20
+                h-152
+                w-152
+                rounded-full
+                bg-indigo-300/20
+                blur-3xl
+            "></div>
+
+        <div class="
+                absolute
+                bottom-0
+                left-1/2
+                h-120
+                w-120
+                -translate-x-1/2
+                rounded-full
+                bg-purple-200/20
+                blur-3xl
+            "></div>
+    </div>
+
+
+    <!-- =========================
+         HEADER / NAVBAR
+    ========================== -->
+    <header class="
+            fixed
+            left-0
+            right-0
+            top-0
+            z-50
+            px-4
+            pt-4
+            sm:px-6
+            lg:px-8
+        ">
+        <nav class="
+                glass
+                mx-auto
+                flex
+                max-w-6xl
+                items-center
+                justify-between
+                rounded-2xl
+                px-5
+                py-3
+                md:px-7
+            " aria-label="Navigasi utama">
+
+            <!-- Logo -->
+            <a href="#home" aria-label="Kembali ke halaman utama" class="
+                    flex
+                    items-center
+                    gap-3
+                    font-semibold
+                    text-slate-900
+                ">
+                <span class="
+                        flex
+                        h-9
+                        w-9
+                        items-center
+                        justify-center
+                        rounded-xl
+                        bg-linear-to-br
+                        from-violet-600
+                        to-indigo-500
+                        text-sm
+                        font-bold
+                        text-white
+                        shadow-lg
+                        shadow-violet-500/20
+                    ">
+                    F
+                </span>
+
+                <span class="text-base tracking-tight">
+                    Fauzy
+                </span>
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <div class="
+                    hidden
+                    items-center
+                    gap-8
+                    md:flex
+                ">
+                <a href="#home" class="
+                        text-sm
+                        font-medium
+                        text-violet-600
+                        transition
+                        hover:text-violet-700
+                    ">
+                    Home
+                </a>
+
+                <a href="#about" class="
+                        text-sm
+                        font-medium
+                        text-slate-600
+                        transition
+                        hover:text-violet-600
+                    ">
+                    About
+                </a>
+
+                <a href="#projects" class="
+                        text-sm
+                        font-medium
+                        text-slate-600
+                        transition
+                        hover:text-violet-600
+                    ">
+                    Projects
+                </a>
+
+                <a href="#skills" class="
+                        text-sm
+                        font-medium
+                        text-slate-600
+                        transition
+                        hover:text-violet-600
+                    ">
+                    Skills
+                </a>
+
+                <a href="#experience" class="
+                        text-sm
+                        font-medium
+                        text-slate-600
+                        transition
+                        hover:text-violet-600
+                    ">
+                    Experience
+                </a>
+            </div>
+
+
+            <!-- Desktop CTA -->
+            <a href="#contact" class="
+                    hidden
+                    items-center
+                    gap-2
+                    rounded-xl
+                    bg-linear-to-r
+                    from-violet-600
+                    to-indigo-500
+                    px-5
+                    py-2.5
+                    text-sm
+                    font-semibold
+                    text-white
+                    shadow-lg
+                    shadow-violet-500/20
+                    transition
+                    duration-300
+                    hover:-translate-y-0.5
+                    hover:shadow-xl
+                    hover:shadow-violet-500/25
+                    md:inline-flex
+                ">
+                Let's Talk
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path d="M5 12h14" />
+                    <path d="m13 6 6 6-6 6" />
+                </svg>
+            </a>
+
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-button" type="button" class="
+                    flex
+                    h-10
+                    w-10
+                    items-center
+                    justify-center
+                    rounded-xl
+                    border
+                    border-violet-100
+                    bg-white/70
+                    text-slate-700
+                    transition
+                    hover:bg-white
+                    md:hidden
+                " aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobile-menu">
+                <svg id="menu-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <line x1="4" x2="20" y1="6" y2="6" />
+                    <line x1="4" x2="20" y1="12" y2="12" />
+                    <line x1="4" x2="20" y1="18" y2="18" />
+                </svg>
+            </button>
+
+        </nav>
+
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="
+                glass
+                mx-auto
+                mt-2
+                hidden
+                max-w-6xl
+                flex-col
+                gap-1
+                rounded-2xl
+                p-3
+                md:hidden
+            ">
+            <a href="#home" class="rounded-xl px-4 py-3 text-sm font-medium text-violet-600 hover:bg-violet-50">
+                Home
+            </a>
+
+            <a href="#about"
+                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-600 hover:bg-violet-50 hover:text-violet-600">
+                About
+            </a>
+
+            <a href="#projects"
+                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-600 hover:bg-violet-50 hover:text-violet-600">
+                Projects
+            </a>
+
+            <a href="#skills"
+                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-600 hover:bg-violet-50 hover:text-violet-600">
+                Skills
+            </a>
+
+            <a href="#experience"
+                class="rounded-xl px-4 py-3 text-sm font-medium text-slate-600 hover:bg-violet-50 hover:text-violet-600">
+                Experience
+            </a>
+
+            <a href="#contact" class="
+                    mt-1
+                    rounded-xl
+                    bg-violet-600
+                    px-4
+                    py-3
+                    text-center
+                    text-sm
+                    font-semibold
+                    text-white
+                ">
+                Contact Me
+            </a>
+        </div>
+    </header>
+
+
+    <main id="main-content">
+
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section id="home" class="
+                relative
+                isolate
+                overflow-hidden
+                px-5
+                pb-6
+                pt-28
+                sm:px-6
+                lg:px-8
+                lg:pb-6
+                lg:pt-30
+            ">
+
+            <!-- Subtle Grid -->
+            <div class="
+                    hero-grid
+                    pointer-events-none
+                    absolute
+                    inset-0
+                    -z-10
+                    opacity-60
+                " aria-hidden="true"></div>
+
+
+            <div class="
+                    mx-auto
+                    grid
+                    max-w-6xl
+                    items-center
+                    gap-14
+                    lg:grid-cols-[1.05fr_0.95fr]
+                    lg:gap-16
+                ">
+
+                <!-- HERO TEXT -->
+                <div class="relative z-10">
+
+                    <div class="
+                            mb-6
+                            inline-flex
+                            items-center
+                            gap-2
+                            rounded-full
+                            border
+                            border-violet-200/70
+                            bg-white/60
+                            px-4
+                            py-2
+                            text-sm
+                            font-medium
+                            text-violet-700
+                            shadow-sm
+                            backdrop-blur-xl
+                        ">
+                        <span class="text-base">
+                            👋
+                        </span>
+
+                        Hello, I'm
+                    </div>
+
+
+                    <h1 class="
+                            max-w-3xl
+                            text-4xl
+                            font-bold
+                            leading-[1.08]
+                            tracking-[-0.04em]
+                            text-[#201b4b]
+                            sm:text-5xl
+                            lg:text-[4rem]
+                        ">
+                        Muhammad
+                        <span class="text-gradient">
+                            Fauzy Agustian
+                        </span>
+                    </h1>
+
+
+                    <p class="
+                            mt-5
+                            text-lg
+                            font-semibold
+                            text-violet-600
+                            sm:text-xl
+                        ">
+                        IT Support
+                        <span class="mx-2 text-violet-300">
+                            ·
+                        </span>
+                        Aspiring Fullstack Developer
+                    </p>
+
+
+                    <p class="
+                            mt-6
+                            max-w-xl
+                            text-base
+                            leading-8
+                            text-slate-600
+                        ">
+                        Saya bekerja di bidang IT Support dan saat ini
+                        aktif mengembangkan kemampuan di software
+                        development, dengan fokus pada pengembangan
+                        aplikasi menggunakan Go, Flutter, PostgreSQL,
+                        dan teknologi modern lainnya.
+                    </p>
+
+
+                    <!-- CTA -->
+                    <div class="
+                            mt-8
+                            flex
+                            flex-col
+                            gap-3
+                            sm:flex-row
+                        ">
+                        <a href="#projects" class="
+                                inline-flex
+                                items-center
+                                justify-center
+                                gap-2
+                                rounded-xl
+                                bg-linear-to-r
+                                from-violet-600
+                                to-indigo-500
+                                px-6
+                                py-3.5
+                                text-sm
+                                font-semibold
+                                text-white
+                                shadow-xl
+                                shadow-violet-500/20
+                                transition
+                                duration-300
+                                hover:-translate-y-0.5
+                                hover:shadow-2xl
+                                hover:shadow-violet-500/25
+                            ">
+                            View My Work
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <path d="M5 12h14" />
+                                <path d="m13 6 6 6-6 6" />
+                            </svg>
+                        </a>
+
+
+                        <a href="#contact" class="
+                                glass-soft
+                                inline-flex
+                                items-center
+                                justify-center
+                                gap-2
+                                rounded-xl
+                                px-6
+                                py-3.5
+                                text-sm
+                                font-semibold
+                                text-slate-700
+                                transition
+                                duration-300
+                                hover:-translate-y-0.5
+                                hover:bg-white/80
+                            ">
+                            Contact Me
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <rect width="20" height="16" x="2" y="4" rx="2" />
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                            </svg>
+                        </a>
+                    </div>
+
+
+                    <!-- Social -->
+                    <div class="
+                            mt-9
+                            flex
+                            flex-wrap
+                            items-center
+                            gap-3
+                        ">
+                        <span class="
+                                mr-1
+                                text-sm
+                                text-slate-500
+                            ">
+                            Find me on
+                        </span>
+
+
+                        <!-- GitHub -->
+                        <a href="https://github.com/Tiankoplak31" target="_blank" rel="noopener noreferrer" class="
+                                glass-soft
+                                flex
+                                h-10
+                                w-10
+                                items-center
+                                justify-center
+                                rounded-full
+                                text-slate-700
+                                transition
+                                duration-300
+                                hover:-translate-y-1
+                                hover:text-violet-600
+                            " aria-label="GitHub Muhammad Fauzy Agustian">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M12 .7a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.23c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .7Z" />
+                            </svg>
+                        </a>
+
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/muhammad-fauzy-agustian-30347b415" target="_blank"
+                            rel="noopener noreferrer" class="
+                                glass-soft
+                                flex
+                                h-10
+                                w-10
+                                items-center
+                                justify-center
+                                rounded-full
+                                text-slate-700
+                                transition
+                                duration-300
+                                hover:-translate-y-1
+                                hover:text-violet-600
+                            " aria-label="LinkedIn Muhammad Fauzy Agustian">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.5 9.98h4.96V22H2.5V9.98ZM9.5 9.98h4.75v1.64h.07c.66-1.25 2.28-2.57 4.7-2.57 5.03 0 5.96 3.31 5.96 7.62V22h-4.95v-4.72c0-1.13-.02-2.58-1.57-2.58-1.58 0-1.82 1.23-1.82 2.5V22H9.5V9.98Z" />
+                            </svg>
+                        </a>
+
+
+                        <!-- Email -->
+                        <a href="mailto:fauzyagustian31@gmail.com" class="
+                                glass-soft
+                                flex
+                                h-10
+                                w-10
+                                items-center
+                                justify-center
+                                rounded-full
+                                text-slate-700
+                                transition
+                                duration-300
+                                hover:-translate-y-1
+                                hover:text-violet-600
+                            " aria-label="Email Muhammad Fauzy Agustian">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <rect width="20" height="16" x="2" y="4" rx="2" />
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                            </svg>
+                        </a>
+
+
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/6285730219043" target="_blank" rel="noopener noreferrer" class="
+                                glass-soft
+                                flex
+                                h-10
+                                w-10
+                                items-center
+                                justify-center
+                                rounded-full
+                                text-slate-700
+                                transition
+                                duration-300
+                                hover:-translate-y-1
+                                hover:text-violet-600
+                            " aria-label="WhatsApp Muhammad Fauzy Agustian">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8A8.5 8.5 0 0 1 8.7 3.9 8.38 8.38 0 0 1 12.5 3h.5a8.48 8.48 0 0 1 8 8Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+                <!-- HERO VISUAL -->
+                <div class="
+                        relative
+                        mx-auto
+                        w-full
+                        max-w-130
+                        lg:mx-0
+                    ">
+
+                    <!-- Decorative Rings -->
+                    <div class="
+                            decorative-ring
+                            absolute
+                            left-1/2
+                            top-1/2
+                            h-105
+                            w-105
+                            -translate-x-1/2
+                            -translate-y-1/2
+                            rounded-full
+                        " aria-hidden="true"></div>
+
+                    <div class="
+                            decorative-ring
+                            absolute
+                            left-1/2
+                            top-1/2
+                            h-83.75
+                            w-83.75
+                            -translate-x-1/2
+                            -translate-y-1/2
+                            rounded-full
+                        " aria-hidden="true"></div>
+
+
+                    <!-- Main Portrait Container -->
+                    <div class="
+                            relative
+                            mx-auto
+                            flex
+                            aspect-4/5
+                            max-h-133.75
+                            w-[85%]
+                            items-center
+                            justify-center
+                            overflow-hidden
+                            rounded-[3rem]
+                            border
+                            border-white/80
+                            bg-linear-to-br
+                            from-violet-100/90
+                            via-white/80
+                            to-indigo-100/90
+                            shadow-[0_30px_90px_rgba(91,73,180,0.18)]
+                        ">
+                        <!-- Placeholder -->
+                        <div class="
+                                absolute
+                                inset-0
+                                bg-[radial-gradient(circle_at_50%_35%,rgba(139,92,246,0.16),transparent_38%)]
+                            "></div>
+
+                        <div class="
+                                absolute
+                                bottom-0
+                                h-[75%]
+                                w-[72%]
+                                rounded-t-[10rem]
+                                bg-linear-to-b
+                                from-violet-400/20
+                                to-indigo-500/30
+                            "></div>
+
+                        <div class="
+                                relative
+                                z-10
+                                flex
+                                h-44
+                                w-44
+                                items-center
+                                justify-center
+                                rounded-full
+                                border
+                                border-white/90
+                                bg-white/60
+                                text-5xl
+                                font-bold
+                                tracking-[-0.06em]
+                                text-gradient
+                                shadow-xl
+                                backdrop-blur-xl
+                            ">
+                            MFA
+                        </div>
+
+                        <p class="
+                                absolute
+                                bottom-10
+                                left-1/2
+                                z-10
+                                -translate-x-1/2
+                                max-w-[90%]
+                                text-center
+                                rounded-full
+                                bg-white/65
+                                px-4
+                                py-2
+                                text-xs
+                                font-medium
+                                text-slate-500
+                                backdrop-blur-xl
+                            ">
+                            Profile photo coming soon
+                        </p>
+                    </div>
+
+
+                    <!-- Floating Card: Current Role -->
+                    <div class="
+                            glass
+                            absolute
+                            left-0
+                            top-10
+                            hidden
+                            rounded-2xl
+                            px-4
+                            py-3
+                            sm:block
+                        ">
+                        <div class="flex items-center gap-2">
+                            <span class="
+                                    h-2
+                                    w-2
+                                    rounded-full
+                                    bg-emerald-500
+                                "></span>
+
+                            <p class="
+                                    text-xs
+                                    font-semibold
+                                    text-slate-800
+                                ">
+                                Current Role
+                            </p>
+                        </div>
+
+                        <p class="
+                                mt-1
+                                text-[11px]
+                                text-slate-500
+                            ">
+                            IT Support
+                        </p>
+                    </div>
+
+
+                    <!-- Floating Card: Focus -->
+                    <div class="
+                            glass
+                            absolute
+                            right-0
+                            top-[38%]
+                            hidden
+                            rounded-2xl
+                            px-4
+                            py-3
+                            sm:block
+                        ">
+                        <p class="
+                                text-xs
+                                font-semibold
+                                text-slate-800
+                            ">
+                            Focus
+                        </p>
+
+                        <p class="
+                                mt-1
+                                text-[11px]
+                                text-slate-500
+                            ">
+                            Fullstack Development
+                        </p>
+                    </div>
+
+
+                    <!-- Floating Card: Learning -->
+                    <div class="
+                            glass
+                            absolute
+                            bottom-10
+                            left-3
+                            hidden
+                            rounded-2xl
+                            px-4
+                            py-3
+                            sm:block
+                        ">
+                        <p class="
+                                text-xs
+                                font-semibold
+                                text-slate-800
+                            ">
+                            Learning & Building
+                        </p>
+
+                        <p class="
+                                mt-1
+                                text-[11px]
+                                text-slate-500
+                            ">
+                            Go · Flutter · PostgreSQL
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ========================= ABOUT ME ========================== -->
+        <section id="about" aria-labelledby="about-title" class="
+        scroll-mt-28
+        px-5
+        pb-10
+        pt-6
+        sm:px-6
+        lg:px-8
+        lg:pb-10
+        lg:pt-6
+    ">
+            <div class="
+            glass
+            mx-auto
+            max-w-6xl
+            overflow-hidden
+            rounded-4xl
+            p-5
+            sm:p-7
+            lg:p-10
+        ">
+                <div class="
+                grid
+                items-center
+                gap-10
+                lg:grid-cols-[0.9fr_1.1fr]
+                lg:gap-16
+            ">
+
+                    <!-- =====================
+                 ABOUT VISUAL
+            ====================== -->
+                    <div class="relative">
+
+                        <div class="
+                        relative
+                        mx-auto
+                        aspect-4/3
+                        w-full
+                        max-w-125
+                        overflow-hidden
+                        rounded-3xl
+                        border
+                        border-white/80
+                        bg-linear-to-br
+                        from-violet-100
+                        via-white
+                        to-indigo-100
+                        shadow-[0_24px_70px_rgba(91,73,180,0.12)]
+                    ">
+
+                            <!-- Background decoration -->
+                            <div class="
+                            absolute
+                            -left-16
+                            -top-16
+                            h-48
+                            w-48
+                            rounded-full
+                            bg-violet-300/30
+                            blur-3xl
+                        " aria-hidden="true"></div>
+
+                            <div class="
+                            absolute
+                            -bottom-16
+                            -right-16
+                            h-52
+                            w-52
+                            rounded-full
+                            bg-indigo-300/25
+                            blur-3xl
+                        " aria-hidden="true"></div>
+
+
+                            <!-- Decorative dots -->
+                            <div class="
+                            absolute
+                            left-8
+                            top-8
+                            grid
+                            grid-cols-5
+                            gap-2
+                            opacity-30
+                        " aria-hidden="true">
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                                <span class="h-1.5 w-1.5 rounded-full bg-violet-500"></span>
+                            </div>
+
+
+                            <!-- Temporary Profile Placeholder -->
+                            <div class="
+                            absolute
+                            inset-0
+                            flex
+                            items-center
+                            justify-center
+                        ">
+                                <div class="
+                                flex
+                                h-44
+                                w-44
+                                items-center
+                                justify-center
+                                rounded-full
+                                border
+                                border-white/90
+                                bg-white/55
+                                text-5xl
+                                font-bold
+                                shadow-xl
+                                backdrop-blur-xl
+                            ">
+                                    <span class="text-gradient">
+                                        MFA
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <p class="
+                            absolute
+                            bottom-7
+                            left-1/2
+                            -translate-x-1/2
+                            max-w-[90%]
+                                text-center
+                            rounded-full
+                            bg-white/65
+                            px-4
+                            py-2
+                            text-xs
+                            font-medium
+                            text-slate-500
+                            backdrop-blur-xl
+                        ">
+                                Personal photo coming soon
+                            </p>
+                        </div>
+
+
+                        <!-- Floating Badge -->
+                        <div class="
+                        glass
+                        absolute
+                        -bottom-5
+                        left-4
+                        flex
+                        items-center
+                        gap-3
+                        rounded-2xl
+                        px-4
+                        py-3
+                        sm:left-8
+                    ">
+                            <span class="
+                            flex
+                            h-10
+                            w-10
+                            items-center
+                            justify-center
+                            rounded-xl
+                            bg-violet-100
+                            text-violet-600
+                        ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M9 18h6" />
+                                    <path d="M10 22h4" />
+                                    <path
+                                        d="M15.09 14c.18-.77.66-1.38 1.2-1.91A6 6 0 1 0 7.7 12.1c.53.52 1 1.12 1.2 1.9" />
+                                </svg>
+                            </span>
+
+                            <div>
+                                <p class="
+                                text-xs
+                                font-semibold
+                                text-slate-800
+                            ">
+                                    Learning by building
+                                </p>
+
+                                <p class="
+                                mt-0.5
+                                text-[11px]
+                                text-slate-500
+                            ">
+                                    Turning ideas into projects
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- =====================
+                 ABOUT CONTENT
+            ====================== -->
+                    <div>
+
+                        <p class="
+                        text-xs
+                        font-bold
+                        uppercase
+                        tracking-[0.18em]
+                        text-violet-600
+                    ">
+                            About Me
+                        </p>
+
+
+                        <h2 id="about-title" class="
+                        mt-4
+                        max-w-2xl
+                        text-3xl
+                        font-bold
+                        leading-tight
+                        tracking-[-0.03em]
+                        text-[#201b4b]
+                        sm:text-4xl
+                        lg:text-[2.65rem]
+                    ">
+                            Building my path in
+                            <span class="text-gradient">
+                                technology.
+                            </span>
+                        </h2>
+
+
+                        <div class="
+                        mt-6
+                        space-y-4
+                        text-[15px]
+                        leading-7
+                        text-slate-600
+                    ">
+                            <p>
+                                Saya adalah seorang IT Support dengan
+                                ketertarikan yang kuat pada software
+                                development.
+                            </p>
+
+                            <p>
+                                Berawal dari latar belakang pendidikan
+                                Manajemen, saya kemudian memperdalam dunia
+                                teknologi dan programming secara bertahap
+                                melalui pembelajaran dan pengembangan project.
+                            </p>
+
+                            <p>
+                                Saat ini saya fokus mengembangkan kemampuan
+                                fullstack development, terutama menggunakan
+                                Go untuk backend, Flutter untuk mobile
+                                development, serta PostgreSQL dan teknologi
+                                pendukung lainnya.
+                            </p>
+                        </div>
+
+
+                        <!-- Highlight Items -->
+                        <div class="mt-8 space-y-4">
+
+                            <!-- Current Role -->
+                            <div class="
+                            group
+                            flex
+                            gap-4
+                            rounded-2xl
+                            border
+                            border-violet-100/80
+                            bg-white/40
+                            p-4
+                            transition
+                            duration-300
+                            hover:bg-white/70
+                        ">
+                                <div class="
+                                flex
+                                h-11
+                                w-11
+                                shrink-0
+                                items-center
+                                justify-center
+                                rounded-xl
+                                bg-violet-100
+                                text-violet-600
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <rect width="20" height="14" x="2" y="7" rx="2" />
+                                        <path d="M8 21V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v16" />
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <h3 class="
+                                    text-sm
+                                    font-semibold
+                                    text-slate-800
+                                ">
+                                        Current Role
+                                    </h3>
+
+                                    <p class="
+                                    mt-1
+                                    text-sm
+                                    leading-6
+                                    text-slate-500
+                                ">
+                                        IT Support at Rumah Sakit Bedah
+                                        Mitra Sehat Lamongan.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <!-- Education -->
+                            <div class="
+                            group
+                            flex
+                            gap-4
+                            rounded-2xl
+                            border
+                            border-violet-100/80
+                            bg-white/40
+                            p-4
+                            transition
+                            duration-300
+                            hover:bg-white/70
+                        ">
+                                <div class="
+                                flex
+                                h-11
+                                w-11
+                                shrink-0
+                                items-center
+                                justify-center
+                                rounded-xl
+                                bg-indigo-100
+                                text-indigo-600
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <path d="m22 10-10-5L2 10l10 5 10-5Z" />
+                                        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <h3 class="
+                                    text-sm
+                                    font-semibold
+                                    text-slate-800
+                                ">
+                                        Education
+                                    </h3>
+
+                                    <p class="
+                                    mt-1
+                                    text-sm
+                                    leading-6
+                                    text-slate-500
+                                ">
+                                        S1 Manajemen — Institut Teknologi
+                                        dan Bisnis Ahmad Dahlan Lamongan.
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <!-- Current Focus -->
+                            <div class="
+                            group
+                            flex
+                            gap-4
+                            rounded-2xl
+                            border
+                            border-violet-100/80
+                            bg-white/40
+                            p-4
+                            transition
+                            duration-300
+                            hover:bg-white/70
+                        ">
+                                <div class="
+                                flex
+                                h-11
+                                w-11
+                                shrink-0
+                                items-center
+                                justify-center
+                                rounded-xl
+                                bg-purple-100
+                                text-purple-600
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <polyline points="16 18 22 12 16 6" />
+                                        <polyline points="8 6 2 12 8 18" />
+                                    </svg>
+                                </div>
+
+                                <div>
+                                    <h3 class="
+                                    text-sm
+                                    font-semibold
+                                    text-slate-800
+                                ">
+                                        Current Focus
+                                    </h3>
+
+                                    <p class="
+                                    mt-1
+                                    text-sm
+                                    leading-6
+                                    text-slate-500
+                                ">
+                                        Fullstack development with Go,
+                                        Flutter, PostgreSQL, and modern
+                                        development tools.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- CTA -->
+                        <div class="mt-8">
+
+                            <a href="#projects" class="
+                            inline-flex
+                            items-center
+                            gap-2
+                            rounded-xl
+                            bg-linear-to-r
+                            from-violet-600
+                            to-indigo-500
+                            px-5
+                            py-3
+                            text-sm
+                            font-semibold
+                            text-white
+                            shadow-lg
+                            shadow-violet-500/20
+                            transition
+                            duration-300
+                            hover:-translate-y-0.5
+                            hover:shadow-xl
+                            hover:shadow-violet-500/25
+                        ">
+                                Explore My Work
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M5 12h14" />
+                                    <path d="m13 6 6 6-6 6" />
+                                </svg>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+     FEATURED PROJECTS
+========================== -->
+        <section id="projects" aria-labelledby="projects-title" class="
+        scroll-mt-28
+        px-5
+        py-10
+        sm:px-6
+        lg:px-8
+        lg:py-10
+    ">
+            <div class="mx-auto max-w-6xl">
+
+                <!-- Section Header -->
+                <div class="
+                mb-10
+                flex
+                flex-col
+                gap-5
+                sm:flex-row
+                sm:items-end
+                sm:justify-between
+            ">
+                    <div>
+                        <p class="
+                        text-xs
+                        font-bold
+                        uppercase
+                        tracking-[0.18em]
+                        text-violet-600
+                    ">
+                            Featured Project
+                        </p>
+
+                        <h2 id="projects-title" class="
+                        mt-3
+                        text-3xl
+                        font-bold
+                        tracking-[-0.03em]
+                        text-[#201b4b]
+                        sm:text-4xl
+                        lg:text-[2.65rem]
+                    ">
+                            Things I've
+                            <span class="text-gradient">
+                                built.
+                            </span>
+                        </h2>
+
+                        <p class="
+                        mt-4
+                        max-w-2xl
+                        text-[15px]
+                        leading-7
+                        text-slate-600
+                    ">
+                            Project yang saya bangun sebagai bagian dari
+                            proses belajar dan pengembangan kemampuan
+                            software development.
+                        </p>
+                    </div>
+
+                    <a href="https://github.com/Tiankoplak31" target="_blank" rel="noopener noreferrer" class="
+                    inline-flex
+                    items-center
+                    gap-2
+                    text-sm
+                    font-semibold
+                    text-violet-600
+                    transition
+                    hover:text-violet-700
+                ">
+                        View GitHub
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            aria-hidden="true">
+                            <path d="M5 12h14" />
+                            <path d="m13 6 6 6-6 6" />
+                        </svg>
+                    </a>
+                </div>
+
+
+                <!-- Main Featured Project -->
+                <article class="
+                glass
+                group
+                overflow-hidden
+                rounded-4xl
+                p-4
+                sm:p-5
+                lg:p-6
+            ">
+                    <div class="
+                    grid
+                    items-stretch
+                    gap-6
+                    lg:grid-cols-[1.15fr_0.85fr]
+                ">
+
+                        <!-- =====================
+                     PROJECT PREVIEW
+                ====================== -->
+                        <div class="
+                        relative
+                        min-h-90
+                        overflow-hidden
+                        rounded-3xl
+                        border
+                        border-white/80
+                        bg-linear-to-br
+                        from-violet-100
+                        via-purple-50
+                        to-indigo-100
+                        sm:min-h-110
+                        lg:min-h-125
+                    ">
+
+                            <!-- Decorative Glow -->
+                            <div class="
+                            absolute
+                            -left-20
+                            -top-20
+                            h-72
+                            w-72
+                            rounded-full
+                            bg-violet-400/20
+                            blur-3xl
+                        " aria-hidden="true"></div>
+
+                            <div class="
+                            absolute
+                            -bottom-24
+                            -right-20
+                            h-80
+                            w-80
+                            rounded-full
+                            bg-indigo-400/20
+                            blur-3xl
+                        " aria-hidden="true"></div>
+
+
+                            <!-- Decorative Grid -->
+                            <div class="
+                            hero-grid
+                            absolute
+                            inset-0
+                            opacity-50
+                        " aria-hidden="true"></div>
+
+
+                            <!-- Temporary Project Screenshot -->
+                            <div class="
+                            absolute
+                            inset-0
+                            flex
+                            items-center
+                            justify-center
+                            p-7
+                            sm:p-10
+                        ">
+                                <div class="
+                                relative
+                                w-full
+                                max-w-lg
+                                rounded-4xl
+                                border
+                                border-white/90
+                                bg-white/65
+                                p-5
+                                shadow-[0_30px_80px_rgba(92,75,180,0.16)]
+                                backdrop-blur-xl
+                                transition
+                                duration-500
+                                group-hover:-translate-y-1
+                            ">
+
+                                    <!-- Fake browser/app chrome -->
+                                    <div class="
+                                    mb-5
+                                    flex
+                                    items-center
+                                    justify-between
+                                ">
+                                        <div class="flex gap-1.5">
+                                            <span class="
+                                            h-2.5
+                                            w-2.5
+                                            rounded-full
+                                            bg-rose-300
+                                        "></span>
+
+                                            <span class="
+                                            h-2.5
+                                            w-2.5
+                                            rounded-full
+                                            bg-amber-300
+                                        "></span>
+
+                                            <span class="
+                                            h-2.5
+                                            w-2.5
+                                            rounded-full
+                                            bg-emerald-300
+                                        "></span>
+                                        </div>
+
+                                        <span class="
+                                        rounded-full
+                                        bg-violet-100
+                                        px-3
+                                        py-1
+                                        text-[10px]
+                                        font-semibold
+                                        text-violet-600
+                                    ">
+                                            Dompetku
+                                        </span>
+                                    </div>
+
+
+                                    <!-- App Mockup -->
+                                    <div class="
+                                    rounded-3xl
+                                    bg-linear-to-br
+                                    from-violet-600
+                                    to-indigo-500
+                                    p-6
+                                    text-white
+                                    shadow-xl
+                                    shadow-violet-500/20
+                                ">
+                                        <div class="
+                                        flex
+                                        items-center
+                                        justify-between
+                                    ">
+                                            <div>
+                                                <p class="
+                                                text-xs
+                                                text-white/70
+                                            ">
+                                                    Available Balance
+                                                </p>
+
+                                                <p class="
+                                                mt-2
+                                                text-2xl
+                                                font-bold
+                                            ">
+                                                    Rp •••••••
+                                                </p>
+                                            </div>
+
+                                            <div class="
+                                            flex
+                                            h-11
+                                            w-11
+                                            items-center
+                                            justify-center
+                                            rounded-2xl
+                                            bg-white/15
+                                        ">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    aria-hidden="true">
+                                                    <rect width="20" height="14" x="2" y="5" rx="2" />
+                                                    <path d="M16 13h.01" />
+                                                    <path d="M2 10h20" />
+                                                </svg>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="
+                                        mt-8
+                                        grid
+                                        grid-cols-3
+                                        gap-3
+                                    ">
+                                            <div class="
+                                            rounded-2xl
+                                            bg-white/12
+                                            p-3
+                                            text-center
+                                        ">
+                                                <span class="
+                                                mx-auto
+                                                flex
+                                                h-9
+                                                w-9
+                                                items-center
+                                                justify-center
+                                                rounded-xl
+                                                bg-white/15
+                                            ">
+                                                    +
+                                                </span>
+
+                                                <p class="
+                                                mt-2
+                                                text-[10px]
+                                                font-medium
+                                            ">
+                                                    Top Up
+                                                </p>
+                                            </div>
+
+                                            <div class="
+                                            rounded-2xl
+                                            bg-white/12
+                                            p-3
+                                            text-center
+                                        ">
+                                                <span class="
+                                                mx-auto
+                                                flex
+                                                h-9
+                                                w-9
+                                                items-center
+                                                justify-center
+                                                rounded-xl
+                                                bg-white/15
+                                            ">
+                                                    →
+                                                </span>
+
+                                                <p class="
+                                                mt-2
+                                                text-[10px]
+                                                font-medium
+                                            ">
+                                                    Transfer
+                                                </p>
+                                            </div>
+
+                                            <div class="
+                                            rounded-2xl
+                                            bg-white/12
+                                            p-3
+                                            text-center
+                                        ">
+                                                <span class="
+                                                mx-auto
+                                                flex
+                                                h-9
+                                                w-9
+                                                items-center
+                                                justify-center
+                                                rounded-xl
+                                                bg-white/15
+                                            ">
+                                                    ✓
+                                                </span>
+
+                                                <p class="
+                                                mt-2
+                                                text-[10px]
+                                                font-medium
+                                            ">
+                                                    Payment
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <p class="
+                                    mt-4
+                                    text-center
+                                    text-xs
+                                    font-medium
+                                    text-slate-400
+                                ">
+                                        Project screenshot coming soon
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <!-- Floating Project Type -->
+                            <div class="
+                            glass
+                            absolute
+                            left-6
+                            top-6
+                            rounded-full
+                            px-4
+                            py-2
+                        ">
+                                <p class="
+                                text-xs
+                                font-semibold
+                                text-violet-700
+                            ">
+                                    Mobile Application
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <!-- =====================
+                     PROJECT CONTENT
+                ====================== -->
+                        <div class="
+                        flex
+                        flex-col
+                        justify-center
+                        px-1
+                        py-4
+                        sm:px-3
+                        lg:px-5
+                        lg:py-8
+                    ">
+
+                            <div class="
+                            mb-5
+                            flex
+                            items-center
+                            gap-3
+                        ">
+                                <span class="
+                                flex
+                                h-12
+                                w-12
+                                items-center
+                                justify-center
+                                rounded-2xl
+                                bg-violet-100
+                                text-violet-600
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <rect width="14" height="20" x="5" y="2" rx="2" />
+                                        <path d="M12 18h.01" />
+                                    </svg>
+                                </span>
+
+                                <div>
+                                    <p class="
+                                    text-xs
+                                    font-bold
+                                    uppercase
+                                    tracking-[0.15em]
+                                    text-violet-600
+                                ">
+                                        Featured Project
+                                    </p>
+
+                                    <p class="
+                                    mt-1
+                                    text-xs
+                                    text-slate-400
+                                ">
+                                        Fullstack Mobile Application
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <h3 class="
+                            text-3xl
+                            font-bold
+                            tracking-[-0.03em]
+                            text-[#201b4b]
+                            sm:text-4xl
+                        ">
+                                Dompetku
+                            </h3>
+
+
+                            <p class="
+                            mt-5
+                            text-[15px]
+                            leading-7
+                            text-slate-600
+                        ">
+                                Dompetku adalah aplikasi mobile e-wallet
+                                yang dikembangkan untuk menerapkan konsep
+                                transaksi digital dan pengelolaan saldo
+                                dalam sebuah aplikasi.
+                            </p>
+
+
+                            <!-- Features -->
+                            <div class="
+                            mt-7
+                            grid
+                            grid-cols-2
+                            gap-3
+                        ">
+                                <div class="
+                                rounded-2xl
+                                border
+                                border-violet-100
+                                bg-white/45
+                                p-3
+                            ">
+                                    <p class="
+                                    text-xs
+                                    font-semibold
+                                    text-slate-700
+                                ">
+                                        Wallet
+                                    </p>
+                                </div>
+
+                                <div class="
+                                rounded-2xl
+                                border
+                                border-violet-100
+                                bg-white/45
+                                p-3
+                            ">
+                                    <p class="
+                                    text-xs
+                                    font-semibold
+                                    text-slate-700
+                                ">
+                                        Top Up
+                                    </p>
+                                </div>
+
+                                <div class="
+                                rounded-2xl
+                                border
+                                border-violet-100
+                                bg-white/45
+                                p-3
+                            ">
+                                    <p class="
+                                    text-xs
+                                    font-semibold
+                                    text-slate-700
+                                ">
+                                        Transfer
+                                    </p>
+                                </div>
+
+                                <div class="
+                                rounded-2xl
+                                border
+                                border-violet-100
+                                bg-white/45
+                                p-3
+                            ">
+                                    <p class="
+                                    text-xs
+                                    font-semibold
+                                    text-slate-700
+                                ">
+                                        Payment
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <!-- Tech Stack -->
+                            <div class="mt-7">
+                                <p class="
+                                mb-3
+                                text-xs
+                                font-semibold
+                                text-slate-400
+                            ">
+                                    Built with
+                                </p>
+
+                                <div class="
+                                flex
+                                flex-wrap
+                                gap-2
+                            ">
+                                    <span class="
+                                    rounded-full
+                                    border
+                                    border-violet-100
+                                    bg-violet-50
+                                    px-3
+                                    py-1.5
+                                    text-xs
+                                    font-medium
+                                    text-violet-700
+                                ">
+                                        Flutter
+                                    </span>
+
+                                    <span class="
+                                    rounded-full
+                                    border
+                                    border-sky-100
+                                    bg-sky-50
+                                    px-3
+                                    py-1.5
+                                    text-xs
+                                    font-medium
+                                    text-sky-700
+                                ">
+                                        Go
+                                    </span>
+
+                                    <span class="
+                                    rounded-full
+                                    border
+                                    border-indigo-100
+                                    bg-indigo-50
+                                    px-3
+                                    py-1.5
+                                    text-xs
+                                    font-medium
+                                    text-indigo-700
+                                ">
+                                        PostgreSQL
+                                    </span>
+
+                                    <span class="
+                                    rounded-full
+                                    border
+                                    border-cyan-100
+                                    bg-cyan-50
+                                    px-3
+                                    py-1.5
+                                    text-xs
+                                    font-medium
+                                    text-cyan-700
+                                ">
+                                        Docker
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <!-- Project Links -->
+                            <div class="
+                            mt-8
+                            flex
+                            flex-col
+                            gap-3
+                            sm:flex-row
+                        ">
+
+                                <!-- GitHub profile sementara -->
+                                <a href="https://github.com/Tiankoplak31" target="_blank" rel="noopener noreferrer"
+                                    class="
+                                inline-flex
+                                items-center
+                                justify-center
+                                gap-2
+                                rounded-xl
+                                bg-[#201b4b]
+                                px-5
+                                py-3
+                                text-sm
+                                font-semibold
+                                text-white
+                                transition
+                                duration-300
+                                hover:-translate-y-0.5
+                                hover:bg-[#2d2767]
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                        fill="currentColor" aria-hidden="true">
+                                        <path
+                                            d="M12 .7a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.23c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .7Z" />
+                                    </svg>
+
+                                    GitHub
+                                </a>
+
+
+                                <!-- Demo not available yet -->
+                                <span class="
+                                glass-soft
+                                inline-flex
+                                cursor-default
+                                items-center
+                                justify-center
+                                gap-2
+                                rounded-xl
+                                px-5
+                                py-3
+                                text-sm
+                                font-semibold
+                                text-slate-400
+                            " aria-label="Demo coming soon">
+                                    Live Demo
+
+                                    <span class="
+                                    rounded-full
+                                    bg-violet-100
+                                    px-2
+                                    py-0.5
+                                    text-[10px]
+                                    font-semibold
+                                    text-violet-600
+                                ">
+                                        Soon
+                                    </span>
+                                </span>
+
+                            </div>
+
+
+                            <p class="
+                            mt-4
+                            text-xs
+                            leading-5
+                            text-slate-400
+                        ">
+                                Link repository spesifik dan demo akan
+                                ditambahkan setelah tersedia.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </article>
+
+
+                <!-- More Projects Note -->
+                <div class="
+                mt-6
+                flex
+                items-center
+                justify-center
+            ">
+                    <p class="
+                    rounded-full
+                    border
+                    border-violet-100
+                    bg-white/40
+                    px-5
+                    py-2.5
+                    text-center
+                    text-xs
+                    font-medium
+                    text-slate-500
+                    backdrop-blur-lg
+                ">
+                        More projects will be added as I continue learning
+                        and building.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================
+     SKILLS / MY TOOLKIT
+========================== -->
+        <section id="skills" aria-labelledby="skills-title" class="
+        scroll-mt-28
+        px-5
+        py-10
+        sm:px-6
+        lg:px-8
+        lg:py-10
+    ">
+            <div class="mx-auto max-w-6xl">
+
+                <!-- Section Header -->
+                <div class="mx-auto max-w-2xl text-center">
+
+                    <p class="
+                    text-xs
+                    font-bold
+                    uppercase
+                    tracking-[0.18em]
+                    text-violet-600
+                ">
+                        Technologies I Work With
+                    </p>
+
+                    <h2 id="skills-title" class="
+                    mt-3
+                    text-3xl
+                    font-bold
+                    tracking-[-0.03em]
+                    text-[#201b4b]
+                    sm:text-4xl
+                    lg:text-[2.65rem]
+                ">
+                        My
+                        <span class="text-gradient">
+                            toolkit.
+                        </span>
+                    </h2>
+
+                    <p class="
+                    mx-auto
+                    mt-4
+                    max-w-xl
+                    text-[15px]
+                    leading-7
+                    text-slate-600
+                ">
+                        Beberapa teknologi yang saya gunakan dalam proses
+                        belajar dan membangun aplikasi web maupun mobile.
+                    </p>
+
+                </div>
+
+
+                <!-- Skills Grid -->
+                <div class="
+                mt-12
+                grid
+                grid-cols-1
+                gap-4
+                sm:grid-cols-2
+                lg:grid-cols-4
+            ">
+
+                    <!-- GO -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-sky-100
+                        text-sm
+                        font-bold
+                        text-sky-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            GO
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            Go
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Backend development dan REST API.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-sky-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-sky-600
+                    ">
+                            Backend
+                        </span>
+                    </article>
+
+
+                    <!-- FLUTTER -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-blue-100
+                        text-sm
+                        font-bold
+                        text-blue-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            FL
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            Flutter
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Pengembangan aplikasi mobile cross-platform.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-blue-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-blue-600
+                    ">
+                            Mobile
+                        </span>
+                    </article>
+
+
+                    <!-- POSTGRESQL -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-indigo-100
+                        text-xs
+                        font-bold
+                        text-indigo-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            PG
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            PostgreSQL
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Database relasional untuk aplikasi.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-indigo-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-indigo-600
+                    ">
+                            Database
+                        </span>
+                    </article>
+
+
+                    <!-- DOCKER -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-cyan-100
+                        text-xs
+                        font-bold
+                        text-cyan-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            DK
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            Docker
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Containerization untuk environment aplikasi.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-cyan-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-cyan-600
+                    ">
+                            DevOps
+                        </span>
+                    </article>
+
+
+                    <!-- HTML -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-orange-100
+                        text-xs
+                        font-bold
+                        text-orange-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            HTML
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            HTML5
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Struktur halaman web yang semantik.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-orange-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-orange-600
+                    ">
+                            Web
+                        </span>
+                    </article>
+
+
+                    <!-- TAILWIND -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-teal-100
+                        text-xs
+                        font-bold
+                        text-teal-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            TW
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            Tailwind CSS
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Utility-first styling dan responsive UI.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-teal-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-teal-600
+                    ">
+                            Styling
+                        </span>
+                    </article>
+
+
+                    <!-- JAVASCRIPT -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-amber-100
+                        text-xs
+                        font-bold
+                        text-amber-700
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            JS
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            JavaScript
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Interaksi dan logika pada website.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-amber-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-amber-700
+                    ">
+                            Frontend
+                        </span>
+                    </article>
+
+
+                    <!-- GIT -->
+                    <article class="
+                    glass-soft
+                    group
+                    rounded-3xl
+                    p-5
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+                        <div class="
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-rose-100
+                        text-xs
+                        font-bold
+                        text-rose-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            GIT
+                        </div>
+
+                        <h3 class="
+                        mt-5
+                        text-base
+                        font-semibold
+                        text-slate-800
+                    ">
+                            Git & GitHub
+                        </h3>
+
+                        <p class="
+                        mt-2
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Version control dan pengelolaan source code.
+                        </p>
+
+                        <span class="
+                        mt-4
+                        inline-flex
+                        rounded-full
+                        bg-rose-50
+                        px-3
+                        py-1
+                        text-[11px]
+                        font-semibold
+                        text-rose-600
+                    ">
+                            Version Control
+                        </span>
+                    </article>
+
+                </div>
+
+
+                <!-- Current Focus -->
+                <div class="
+                glass
+                mt-8
+                rounded-3xl
+                p-5
+                sm:p-6
+            ">
+                    <div class="
+                    flex
+                    flex-col
+                    gap-5
+                    md:flex-row
+                    md:items-center
+                    md:justify-between
+                ">
+
+                        <div class="
+                        flex
+                        items-start
+                        gap-4
+                    ">
+                            <div class="
+                            flex
+                            h-11
+                            w-11
+                            shrink-0
+                            items-center
+                            justify-center
+                            rounded-2xl
+                            bg-violet-100
+                            text-violet-600
+                        ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <polyline points="16 18 22 12 16 6" />
+                                    <polyline points="8 6 2 12 8 18" />
+                                </svg>
+                            </div>
+
+                            <div>
+                                <p class="
+                                text-sm
+                                font-semibold
+                                text-slate-800
+                            ">
+                                    Current Focus
+                                </p>
+
+                                <p class="
+                                mt-1
+                                max-w-xl
+                                text-sm
+                                leading-6
+                                text-slate-500
+                            ">
+                                    Memperdalam fullstack development dengan
+                                    fokus pada Go, Flutter, PostgreSQL, dan
+                                    workflow pengembangan aplikasi modern.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <a href="#projects" class="
+                        inline-flex
+                        shrink-0
+                        items-center
+                        gap-2
+                        text-sm
+                        font-semibold
+                        text-violet-600
+                        transition
+                        hover:text-violet-700
+                    ">
+                            See Project
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <path d="M5 12h14" />
+                                <path d="m13 6 6 6-6 6" />
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================
+     EXPERIENCE & EDUCATION
+========================== -->
+        <section id="experience" aria-labelledby="experience-title" class="
+        scroll-mt-28
+        px-5
+        py-10
+        sm:px-6
+        lg:px-8
+        lg:py-10
+    ">
+            <div class="mx-auto max-w-6xl">
+
+                <!-- Section Header -->
+                <div class="mx-auto max-w-2xl text-center">
+
+                    <p class="
+                    text-xs
+                    font-bold
+                    uppercase
+                    tracking-[0.18em]
+                    text-violet-600
+                ">
+                        My Journey
+                    </p>
+
+                    <h2 id="experience-title" class="
+                    mt-3
+                    text-3xl
+                    font-bold
+                    tracking-[-0.03em]
+                    text-[#201b4b]
+                    sm:text-4xl
+                    lg:text-[2.65rem]
+                ">
+                        Experience &
+                        <span class="text-gradient">
+                            Education.
+                        </span>
+                    </h2>
+
+                    <p class="
+                    mx-auto
+                    mt-4
+                    max-w-xl
+                    text-[15px]
+                    leading-7
+                    text-slate-600
+                ">
+                        Perjalanan pendidikan dan pengalaman profesional
+                        yang membentuk ketertarikan saya di bidang teknologi.
+                    </p>
+
+                </div>
+
+
+                <!-- Timeline -->
+                <div class="
+                relative
+                mx-auto
+                mt-14
+                max-w-4xl
+            ">
+
+                    <!-- Vertical Timeline Line -->
+                    <div class="
+                    absolute
+                    bottom-8
+                    left-5
+                    top-8
+                    w-px
+                    bg-linear-to-b
+                    from-violet-300
+                    via-indigo-200
+                    to-transparent
+                    sm:left-6
+                " aria-hidden="true"></div>
+
+
+                    <div class="space-y-6">
+
+                        <!-- =====================
+                     EXPERIENCE
+                ====================== -->
+                        <article class="
+                        relative
+                        pl-14
+                        sm:pl-16
+                    ">
+
+                            <!-- Timeline Node -->
+                            <div class="
+                            absolute
+                            left-0
+                            top-7
+                            z-10
+                            flex
+                            h-10
+                            w-10
+                            items-center
+                            justify-center
+                            rounded-2xl
+                            border-4
+                            border-[#f8f7ff]
+                            bg-violet-600
+                            text-white
+                            shadow-lg
+                            shadow-violet-500/20
+                            sm:h-12
+                            sm:w-12
+                        ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <rect width="20" height="14" x="2" y="7" rx="2" />
+
+                                    <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+
+                                    <path d="M12 12v.01" />
+                                    <path d="M2 12h20" />
+                                </svg>
+                            </div>
+
+
+                            <!-- Card -->
+                            <div class="
+                            glass
+                            rounded-3xl
+                            p-6
+                            transition
+                            duration-300
+                            hover:-translate-y-0.5
+                            hover:bg-white/70
+                            sm:p-7
+                        ">
+
+                                <div class="
+                                flex
+                                flex-col
+                                gap-4
+                                sm:flex-row
+                                sm:items-start
+                                sm:justify-between
+                            ">
+
+                                    <div>
+
+                                        <div class="
+                                        mb-3
+                                        flex
+                                        flex-wrap
+                                        items-center
+                                        gap-2
+                                    ">
+                                            <span class="
+                                            rounded-full
+                                            bg-violet-100
+                                            px-3
+                                            py-1
+                                            text-[11px]
+                                            font-semibold
+                                            text-violet-700
+                                        ">
+                                                Experience
+                                            </span>
+
+                                            <span class="
+                                            inline-flex
+                                            items-center
+                                            gap-1.5
+                                            rounded-full
+                                            bg-emerald-50
+                                            px-3
+                                            py-1
+                                            text-[11px]
+                                            font-semibold
+                                            text-emerald-600
+                                        ">
+                                                <span class="
+                                                h-1.5
+                                                w-1.5
+                                                rounded-full
+                                                bg-emerald-500
+                                            "></span>
+
+                                                Current
+                                            </span>
+                                        </div>
+
+
+                                        <h3 class="
+                                        text-xl
+                                        font-bold
+                                        tracking-[-0.02em]
+                                        text-[#201b4b]
+                                        sm:text-2xl
+                                    ">
+                                            IT Support
+                                        </h3>
+
+
+                                        <p class="
+                                        mt-2
+                                        text-sm
+                                        font-medium
+                                        text-slate-600
+                                        sm:text-[15px]
+                                    ">
+                                            Rumah Sakit Bedah Mitra Sehat
+                                            Lamongan
+                                        </p>
+
+                                    </div>
+
+
+                                    <!-- Date -->
+                                    <div class="
+                                    inline-flex
+                                    shrink-0
+                                    items-center
+                                    gap-2
+                                    rounded-xl
+                                    border
+                                    border-violet-100
+                                    bg-white/45
+                                    px-3
+                                    py-2
+                                    text-xs
+                                    font-semibold
+                                    text-violet-600
+                                ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                            <path d="M8 2v4" />
+                                            <path d="M16 2v4" />
+                                            <rect width="18" height="18" x="3" y="4" rx="2" />
+                                            <path d="M3 10h18" />
+                                        </svg>
+
+                                        13 Mei 2025 — Sekarang
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </article>
+
+
+                        <!-- =====================
+                     EDUCATION
+                ====================== -->
+                        <article class="
+                        relative
+                        pl-14
+                        sm:pl-16
+                    ">
+
+                            <!-- Timeline Node -->
+                            <div class="
+                            absolute
+                            left-0
+                            top-7
+                            z-10
+                            flex
+                            h-10
+                            w-10
+                            items-center
+                            justify-center
+                            rounded-2xl
+                            border-4
+                            border-[#f8f7ff]
+                            bg-indigo-500
+                            text-white
+                            shadow-lg
+                            shadow-indigo-500/20
+                            sm:h-12
+                            sm:w-12
+                        ">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" aria-hidden="true">
+                                    <path d="m22 10-10-5L2 10l10 5 10-5Z" />
+
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                                </svg>
+                            </div>
+
+
+                            <!-- Card -->
+                            <div class="
+                            glass
+                            rounded-3xl
+                            p-6
+                            transition
+                            duration-300
+                            hover:-translate-y-0.5
+                            hover:bg-white/70
+                            sm:p-7
+                        ">
+
+                                <div class="
+                                flex
+                                flex-col
+                                gap-4
+                                sm:flex-row
+                                sm:items-start
+                                sm:justify-between
+                            ">
+
+                                    <div>
+
+                                        <span class="
+                                        inline-flex
+                                        rounded-full
+                                        bg-indigo-100
+                                        px-3
+                                        py-1
+                                        text-[11px]
+                                        font-semibold
+                                        text-indigo-700
+                                    ">
+                                            Education
+                                        </span>
+
+
+                                        <h3 class="
+                                        mt-3
+                                        text-xl
+                                        font-bold
+                                        tracking-[-0.02em]
+                                        text-[#201b4b]
+                                        sm:text-2xl
+                                    ">
+                                            S1 Manajemen
+                                        </h3>
+
+
+                                        <p class="
+                                        mt-2
+                                        max-w-xl
+                                        text-sm
+                                        font-medium
+                                        leading-6
+                                        text-slate-600
+                                        sm:text-[15px]
+                                    ">
+                                            Institut Teknologi dan Bisnis
+                                            Ahmad Dahlan Lamongan
+                                        </p>
+
+                                    </div>
+
+
+                                    <!-- Date -->
+                                    <div class="
+                                    inline-flex
+                                    shrink-0
+                                    items-center
+                                    gap-2
+                                    rounded-xl
+                                    border
+                                    border-indigo-100
+                                    bg-white/45
+                                    px-3
+                                    py-2
+                                    text-xs
+                                    font-semibold
+                                    text-indigo-600
+                                ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                            <path d="M8 2v4" />
+                                            <path d="M16 2v4" />
+                                            <rect width="18" height="18" x="3" y="4" rx="2" />
+                                            <path d="M3 10h18" />
+                                        </svg>
+
+                                        Sep 2021 — Jun 2025
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </article>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+     CURRENT FOCUS / OVERVIEW
+========================== -->
+        <section id="focus" aria-labelledby="focus-title" class="
+        px-5
+        py-8
+        sm:px-6
+        lg:px-8
+        lg:py-8
+    ">
+            <div class="mx-auto max-w-6xl">
+
+                <!-- Section Header -->
+                <div class="
+                mb-10
+                flex
+                flex-col
+                gap-4
+                md:flex-row
+                md:items-end
+                md:justify-between
+            ">
+                    <div>
+                        <p class="
+                        text-xs
+                        font-bold
+                        uppercase
+                        tracking-[0.18em]
+                        text-violet-600
+                    ">
+                            At a Glance
+                        </p>
+
+                        <h2 id="focus-title" class="
+                        mt-3
+                        text-3xl
+                        font-bold
+                        tracking-[-0.03em]
+                        text-[#201b4b]
+                        sm:text-4xl
+                    ">
+                            What I'm focused
+                            <span class="text-gradient">
+                                on.
+                            </span>
+                        </h2>
+                    </div>
+
+                    <p class="
+                    max-w-md
+                    text-sm
+                    leading-6
+                    text-slate-500
+                    md:text-right
+                ">
+                        Gambaran singkat mengenai posisi saya saat ini
+                        dan teknologi yang sedang saya fokuskan.
+                    </p>
+                </div>
+
+
+                <!-- Cards -->
+                <div class="
+                grid
+                grid-cols-1
+                gap-4
+                sm:grid-cols-2
+                lg:grid-cols-4
+            ">
+
+                    <!-- =====================
+                 CURRENT ROLE
+            ====================== -->
+                    <article class="
+                    glass-soft
+                    group
+                    relative
+                    overflow-hidden
+                    rounded-3xl
+                    p-6
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+
+                        <!-- Glow -->
+                        <div class="
+                        pointer-events-none
+                        absolute
+                        -right-12
+                        -top-12
+                        h-32
+                        w-32
+                        rounded-full
+                        bg-violet-300/20
+                        blur-2xl
+                    " aria-hidden="true"></div>
+
+
+                        <div class="
+                        relative
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-violet-100
+                        text-violet-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <rect width="20" height="14" x="2" y="7" rx="2" />
+
+                                <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+
+                                <path d="M2 12h20" />
+                            </svg>
+                        </div>
+
+
+                        <p class="
+                        relative
+                        mt-6
+                        text-xs
+                        font-semibold
+                        uppercase
+                        tracking-[0.13em]
+                        text-slate-400
+                    ">
+                            Current Role
+                        </p>
+
+                        <h3 class="
+                        relative
+                        mt-2
+                        text-xl
+                        font-bold
+                        tracking-[-0.02em]
+                        text-[#201b4b]
+                    ">
+                            IT Support
+                        </h3>
+
+                        <p class="
+                        relative
+                        mt-3
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Rumah Sakit Bedah Mitra Sehat Lamongan.
+                        </p>
+
+                    </article>
+
+
+                    <!-- =====================
+                 CURRENT FOCUS
+            ====================== -->
+                    <article class="
+                    glass-soft
+                    group
+                    relative
+                    overflow-hidden
+                    rounded-3xl
+                    p-6
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+
+                        <div class="
+                        pointer-events-none
+                        absolute
+                        -right-12
+                        -top-12
+                        h-32
+                        w-32
+                        rounded-full
+                        bg-indigo-300/20
+                        blur-2xl
+                    " aria-hidden="true"></div>
+
+
+                        <div class="
+                        relative
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-indigo-100
+                        text-indigo-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9" />
+
+                                <circle cx="12" cy="12" r="3" />
+
+                                <path d="M12 3v3" />
+                                <path d="M21 12h-3" />
+                            </svg>
+                        </div>
+
+
+                        <p class="
+                        relative
+                        mt-6
+                        text-xs
+                        font-semibold
+                        uppercase
+                        tracking-[0.13em]
+                        text-slate-400
+                    ">
+                            Current Focus
+                        </p>
+
+                        <h3 class="
+                        relative
+                        mt-2
+                        text-xl
+                        font-bold
+                        tracking-[-0.02em]
+                        text-[#201b4b]
+                    ">
+                            Fullstack Development
+                        </h3>
+
+                        <p class="
+                        relative
+                        mt-3
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Membangun kemampuan frontend, backend,
+                            database, dan integrasi aplikasi.
+                        </p>
+
+                    </article>
+
+
+                    <!-- =====================
+                 BACKEND FOCUS
+            ====================== -->
+                    <article class="
+                    glass-soft
+                    group
+                    relative
+                    overflow-hidden
+                    rounded-3xl
+                    p-6
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+
+                        <div class="
+                        pointer-events-none
+                        absolute
+                        -right-12
+                        -top-12
+                        h-32
+                        w-32
+                        rounded-full
+                        bg-sky-300/20
+                        blur-2xl
+                    " aria-hidden="true"></div>
+
+
+                        <div class="
+                        relative
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-sky-100
+                        text-sky-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <polyline points="16 18 22 12 16 6" />
+
+                                <polyline points="8 6 2 12 8 18" />
+                            </svg>
+                        </div>
+
+
+                        <p class="
+                        relative
+                        mt-6
+                        text-xs
+                        font-semibold
+                        uppercase
+                        tracking-[0.13em]
+                        text-slate-400
+                    ">
+                            Backend Focus
+                        </p>
+
+                        <h3 class="
+                        relative
+                        mt-2
+                        text-xl
+                        font-bold
+                        tracking-[-0.02em]
+                        text-[#201b4b]
+                    ">
+                            Go
+                        </h3>
+
+                        <p class="
+                        relative
+                        mt-3
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Mempelajari backend development,
+                            REST API, dan application logic.
+                        </p>
+
+                    </article>
+
+
+                    <!-- =====================
+                 MOBILE DEVELOPMENT
+            ====================== -->
+                    <article class="
+                    glass-soft
+                    group
+                    relative
+                    overflow-hidden
+                    rounded-3xl
+                    p-6
+                    transition
+                    duration-300
+                    hover:-translate-y-1
+                    hover:bg-white/75
+                    hover:shadow-[0_20px_50px_rgba(91,73,180,0.12)]
+                ">
+
+                        <div class="
+                        pointer-events-none
+                        absolute
+                        -right-12
+                        -top-12
+                        h-32
+                        w-32
+                        rounded-full
+                        bg-cyan-300/20
+                        blur-2xl
+                    " aria-hidden="true"></div>
+
+
+                        <div class="
+                        relative
+                        flex
+                        h-12
+                        w-12
+                        items-center
+                        justify-center
+                        rounded-2xl
+                        bg-cyan-100
+                        text-cyan-600
+                        transition
+                        duration-300
+                        group-hover:scale-105
+                    ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" aria-hidden="true">
+                                <rect width="14" height="20" x="5" y="2" rx="2" />
+
+                                <path d="M12 18h.01" />
+                            </svg>
+                        </div>
+
+
+                        <p class="
+                        relative
+                        mt-6
+                        text-xs
+                        font-semibold
+                        uppercase
+                        tracking-[0.13em]
+                        text-slate-400
+                    ">
+                            Mobile Development
+                        </p>
+
+                        <h3 class="
+                        relative
+                        mt-2
+                        text-xl
+                        font-bold
+                        tracking-[-0.02em]
+                        text-[#201b4b]
+                    ">
+                            Flutter
+                        </h3>
+
+                        <p class="
+                        relative
+                        mt-3
+                        text-sm
+                        leading-6
+                        text-slate-500
+                    ">
+                            Membangun aplikasi mobile dan
+                            mengintegrasikannya dengan backend.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================
+     CONTACT
+========================== -->
+        <section id="contact" aria-labelledby="contact-title" class="
+        scroll-mt-28
+        px-5
+        pb-10
+        pt-10
+        sm:px-6
+        lg:px-8
+        lg:pb-10
+        lg:pt-10
+    ">
+            <div class="mx-auto max-w-6xl">
+
+                <div class="
+                glass
+                relative
+                overflow-hidden
+                rounded-4xl
+                p-6
+                sm:p-8
+                lg:p-10
+            ">
+
+                    <!-- Decorative Glow -->
+                    <div class="
+                    pointer-events-none
+                    absolute
+                    -left-24
+                    -top-24
+                    h-72
+                    w-72
+                    rounded-full
+                    bg-violet-300/20
+                    blur-3xl
+                " aria-hidden="true"></div>
+
+                    <div class="
+                    pointer-events-none
+                    absolute
+                    -bottom-24
+                    -right-24
+                    h-80
+                    w-80
+                    rounded-full
+                    bg-indigo-300/20
+                    blur-3xl
+                " aria-hidden="true"></div>
+
+
+                    <div class="
+                    relative
+                    grid
+                    gap-10
+                    lg:grid-cols-[0.95fr_1.05fr]
+                    lg:gap-14
+                ">
+
+                        <!-- =====================
+                     CONTACT INTRO
+                ====================== -->
+                        <div>
+
+                            <p class="
+                            text-xs
+                            font-bold
+                            uppercase
+                            tracking-[0.18em]
+                            text-violet-600
+                        ">
+                                Contact
+                            </p>
+
+
+                            <h2 id="contact-title" class="
+                            mt-4
+                            max-w-xl
+                            text-3xl
+                            font-bold
+                            leading-tight
+                            tracking-[-0.03em]
+                            text-[#201b4b]
+                            sm:text-4xl
+                            lg:text-[2.65rem]
+                        ">
+                                Let's connect and
+                                <span class="text-gradient">
+                                    talk.
+                                </span>
+                            </h2>
+
+
+                            <p class="
+                            mt-5
+                            max-w-xl
+                            text-[15px]
+                            leading-7
+                            text-slate-600
+                        ">
+                                Jika ingin berdiskusi mengenai teknologi,
+                                software development, project, atau peluang
+                                profesional, silakan hubungi saya melalui
+                                salah satu platform berikut.
+                            </p>
+
+
+                            <!-- Main CTA -->
+                            <div class="
+                            mt-8
+                            flex
+                            flex-col
+                            gap-3
+                            sm:flex-row
+                        ">
+                                <a href="mailto:fauzyagustian31@gmail.com" class="
+                                inline-flex
+                                items-center
+                                justify-center
+                                gap-2
+                                rounded-xl
+                                bg-linear-to-r
+                                from-violet-600
+                                to-indigo-500
+                                px-6
+                                py-3.5
+                                text-sm
+                                font-semibold
+                                text-white
+                                shadow-xl
+                                shadow-violet-500/20
+                                transition
+                                duration-300
+                                hover:-translate-y-0.5
+                                hover:shadow-2xl
+                                hover:shadow-violet-500/25
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <rect width="20" height="16" x="2" y="4" rx="2" />
+
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                                    </svg>
+
+                                    Send Email
+                                </a>
+
+
+                                <a href="https://wa.me/6285730219043" target="_blank" rel="noopener noreferrer" class="
+                                glass-soft
+                                inline-flex
+                                items-center
+                                justify-center
+                                gap-2
+                                rounded-xl
+                                px-6
+                                py-3.5
+                                text-sm
+                                font-semibold
+                                text-slate-700
+                                transition
+                                duration-300
+                                hover:-translate-y-0.5
+                                hover:bg-white/80
+                            ">
+                                    WhatsApp
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M5 12h14" />
+                                        <path d="m13 6 6 6-6 6" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <!-- =====================
+                     CONTACT CARDS
+                ====================== -->
+                        <div class="
+                        grid
+                        grid-cols-1
+                        gap-4
+                        sm:grid-cols-2
+                    ">
+
+                            <!-- Email -->
+                            <a href="mailto:fauzyagustian31@gmail.com" class="
+                            glass-soft
+                            group
+                            rounded-3xl
+                            p-5
+                            transition
+                            duration-300
+                            hover:-translate-y-1
+                            hover:bg-white/75
+                        ">
+                                <div class="
+                                flex
+                                h-11
+                                w-11
+                                items-center
+                                justify-center
+                                rounded-2xl
+                                bg-violet-100
+                                text-violet-600
+                                transition
+                                group-hover:scale-105
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <rect width="20" height="16" x="2" y="4" rx="2" />
+
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                                    </svg>
+                                </div>
+
+                                <p class="
+                                mt-5
+                                text-xs
+                                font-semibold
+                                uppercase
+                                tracking-[0.12em]
+                                text-slate-400
+                            ">
+                                    Email
+                                </p>
+
+                                <p class="
+                                mt-2
+                                break-all
+                                text-sm
+                                font-semibold
+                                text-slate-700
+                            ">
+                                    fauzyagustian31@gmail.com
+                                </p>
+                            </a>
+
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/Tiankoplak31" target="_blank" rel="noopener noreferrer" class="
+                            glass-soft
+                            group
+                            rounded-3xl
+                            p-5
+                            transition
+                            duration-300
+                            hover:-translate-y-1
+                            hover:bg-white/75
+                        ">
+                                <div class="
+                                flex
+                                h-11
+                                w-11
+                                items-center
+                                justify-center
+                                rounded-2xl
+                                bg-slate-100
+                                text-slate-700
+                                transition
+                                group-hover:scale-105
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                        fill="currentColor" aria-hidden="true">
+                                        <path
+                                            d="M12 .7a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.23c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.33-1.76-1.33-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .7Z" />
+                                    </svg>
+                                </div>
+
+                                <p class="
+                                mt-5
+                                text-xs
+                                font-semibold
+                                uppercase
+                                tracking-[0.12em]
+                                text-slate-400
+                            ">
+                                    GitHub
+                                </p>
+
+                                <p class="
+                                mt-2
+                                text-sm
+                                font-semibold
+                                text-slate-700
+                            ">
+                                    Tiankoplak31
+                                </p>
+                            </a>
+
+
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/muhammad-fauzy-agustian-30347b415" target="_blank"
+                                rel="noopener noreferrer" class="
+                            glass-soft
+                            group
+                            rounded-3xl
+                            p-5
+                            transition
+                            duration-300
+                            hover:-translate-y-1
+                            hover:bg-white/75
+                        ">
+                                <div class="
+                                flex
+                                h-11
+                                w-11
+                                items-center
+                                justify-center
+                                rounded-2xl
+                                bg-blue-100
+                                text-blue-600
+                                transition
+                                group-hover:scale-105
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                        fill="currentColor" aria-hidden="true">
+                                        <path
+                                            d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM2.5 9.98h4.96V22H2.5V9.98ZM9.5 9.98h4.75v1.64h.07c.66-1.25 2.28-2.57 4.7-2.57 5.03 0 5.96 3.31 5.96 7.62V22h-4.95v-4.72c0-1.13-.02-2.58-1.57-2.58-1.58 0-1.82 1.23-1.82 2.5V22H9.5V9.98Z" />
+                                    </svg>
+                                </div>
+
+                                <p class="
+                                mt-5
+                                text-xs
+                                font-semibold
+                                uppercase
+                                tracking-[0.12em]
+                                text-slate-400
+                            ">
+                                    LinkedIn
+                                </p>
+
+                                <p class="
+                                mt-2
+                                text-sm
+                                font-semibold
+                                text-slate-700
+                            ">
+                                    Muhammad Fauzy Agustian
+                                </p>
+                            </a>
+
+
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/6285730219043" target="_blank" rel="noopener noreferrer" class="
+                            glass-soft
+                            group
+                            rounded-3xl
+                            p-5
+                            transition
+                            duration-300
+                            hover:-translate-y-1
+                            hover:bg-white/75
+                        ">
+                                <div class="
+                                flex
+                                h-11
+                                w-11
+                                items-center
+                                justify-center
+                                rounded-2xl
+                                bg-emerald-100
+                                text-emerald-600
+                                transition
+                                group-hover:scale-105
+                            ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" aria-hidden="true">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8A8.5 8.5 0 0 1 8.7 3.9 8.38 8.38 0 0 1 12.5 3h.5a8.48 8.48 0 0 1 8 8Z" />
+                                    </svg>
+                                </div>
+
+                                <p class="
+                                mt-5
+                                text-xs
+                                font-semibold
+                                uppercase
+                                tracking-[0.12em]
+                                text-slate-400
+                            ">
+                                    WhatsApp
+                                </p>
+
+                                <p class="
+                                mt-2
+                                text-sm
+                                font-semibold
+                                text-slate-700
+                            ">
+                                    0857 3021 9043
+                                </p>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+    <!-- =========================
+     FOOTER
+========================== -->
+    <footer class="
+        px-5
+        pb-8
+        sm:px-6
+        lg:px-8
+    ">
+        <div class="
+            mx-auto
+            flex
+            max-w-6xl
+            flex-col
+            gap-5
+            border-t
+            border-violet-100
+            py-7
+            text-sm
+            text-slate-500
+            sm:flex-row
+            sm:items-center
+            sm:justify-between
+        ">
+
+            <!-- Identity -->
+            <div class="
+                flex
+                items-center
+                gap-3
+            ">
+                <span class="
+                    flex
+                    h-9
+                    w-9
+                    items-center
+                    justify-center
+                    rounded-xl
+                    bg-linear-to-br
+                    from-violet-600
+                    to-indigo-500
+                    text-xs
+                    font-bold
+                    text-white
+                ">
+                    F
+                </span>
+
+                <div>
+                    <p class="
+                        font-semibold
+                        text-slate-700
+                    ">
+                        Muhammad Fauzy Agustian
+                    </p>
+
+                    <p class="
+                        mt-0.5
+                        text-xs
+                        text-slate-400
+                    ">
+                        IT Support · Aspiring Fullstack Developer
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Copyright -->
+            <p class="
+                text-xs
+                leading-5
+                text-slate-400
+            ">
+                © 2026 Muhammad Fauzy Agustian.
+                Built with HTML, Tailwind CSS & JavaScript.
+            </p>
+
+
+            <!-- Back to Top -->
+            <a href="#home" class="
+                glass-soft
+                flex
+                h-10
+                w-10
+                shrink-0
+                items-center
+                justify-center
+                rounded-full
+                text-slate-600
+                transition
+                duration-300
+                hover:-translate-y-1
+                hover:text-violet-600
+            " aria-label="Kembali ke atas">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    aria-hidden="true">
+                    <path d="m18 15-6-6-6 6" />
+                </svg>
+            </a>
+
+        </div>
+    </footer>
+</body>
+
+</html>
